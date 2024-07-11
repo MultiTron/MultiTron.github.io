@@ -6,5 +6,5 @@ xhttp.onreadystatechange = () => {
         document.getElementById('quote').textContent = json.value;
     }
 }
-xhttp.open('GET', 'https://api.chucknorris.io/jokes/random', true);
+xhttp.open('GET', 'https://api.chucknorris.io/jokes/random?category=dev', true);
 xhttp.send();

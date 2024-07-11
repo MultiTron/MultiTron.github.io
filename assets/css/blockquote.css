@@ -1,14 +1,17 @@
    .blockquote-section { 
     background-color: #52ACFF;
     background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+    padding-top: auto;
+    padding-bottom: auto;
+    height: fit-content;
    }
   
   
   /* center the blockquote in the page */
   .blockquote-wrapper {
      display: flex;
-     height: 100vh;
-     padding: 0 20px;
+     height: fit-content;
+     padding: 70px 20px;
   }
   
   /* Blockquote main style */
