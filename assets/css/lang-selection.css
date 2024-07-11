@@ -1,0 +1,28 @@
+.lang-select{
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.lang-select li{
+    margin: 10px;
+    justify-content:space-between
+}
+
+.lang-img{
+    width: 50px;
+    height: 30px;
+    justify-content: space-between;
+    border-radius: 0px;
+    opacity: 100%;
+    transition: border-radius 500ms, width 500ms, height 500ms, opacity 500ms ease;
+}
+
+.lang-img:hover{
+    width: 60px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.lang-img:active{
+    opacity: 50%;
+}
