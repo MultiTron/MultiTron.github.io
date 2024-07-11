@@ -7,7 +7,8 @@
 <html>
 
 <head>
-	<title>Ivailo Iliev</title>
+	<title lang="bg">Ивайло Илиев</title>
+	<title lang="en">Ivailo Iliev</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -25,7 +26,8 @@
 
 		<!-- Header -->
 		<header id="header" class="alt">
-			<h1><a href="index.html">Ivailo Iliev</a></h1>
+			<h1><a href="index.html" lang="en">Ivailo Iliev</a></h1>
+			<h1><a href="index.html" lang="bg">Ивайло Илиев</a></h1>
 			<nav>
 				<a href="#menu">Menu</a>
 			</nav>
@@ -38,10 +40,12 @@
 				<ul class="links">
 					<li><a href="#">Home</a></li>
 					<li><a href="#one">About</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#blockquote-section">Chuck Norris Quote</a></li>
 					<li><a href="#footer">Contact</a></li>
 					<div class="lang-select">
-						<li><img class="lang-img" onclick="" src="images/bg-lang.jpg"></li>
-						<li><img class="lang-img" onclick="" src="images/en-lang.jpg"></li>
+						<li><img class="lang-img" onclick="selectLanguage('bg')" src="images/bg-lang.jpg"></li>
+						<li><img class="lang-img" onclick="selectLanguage('en')" src="images/en-lang.jpg"></li>
 					</div>
 				</ul>
 				<a href="#" class="close">Close</a>
@@ -52,8 +56,10 @@
 		<section id="banner">
 			<div class="inner">
 				<div class="logo"><span class="fa fa-graduation-cap" aria-hidden="true"></span></div>
-				<h2>Ivailo Iliev</h2>
-				<p>Full Stack Software Developer</p>
+				<h2 lang="en">Ivailo Iliev</h2>
+				<p lang="en">Full Stack Software Developer</p>
+				<h2 lang="bg">Ивайло Илиев</h2>
+				<p lang="bg">Full Stack Разработчик на софтуер</p>
 			</div>
 		</section>
 
@@ -66,8 +72,11 @@
 					<img class="image" src="images/QuirkyIcon.png" alt="" />
 					<div class="content">
 						<h2 class="major">TL;DR</h2>
-						<p>I'm a skilled developer with expirience in programming highly scalable
+						<p lang="en">I'm a skilled developer with expirience in programming highly scalable
 							programs. Solving problems of all kinds is my main strength.
+						</p>
+						<p lang="bg">Аз съм опитен програмист с умения в разработването на силно мащабируеми приложения.
+							Решаването на проблеми от всякакво естество е едно най-добрите ми качества.
 						</p>
 					</div>
 				</div>
@@ -76,9 +85,9 @@
 
 
 			<!-- Four -->
-			<section id="four" class="wrapper alt style1">
-				<div class="inner">
-					<h2 class="major">Development services</h2>
+			<section id="skills" class="wrapper alt style1">
+				<div class="inner" lang="en">
+					<h2 class="major">Development skills</h2>
 					<section class="features">
 						<article>
 							<img class="image" src="images\iMac-icon.png" alt="" />
@@ -102,9 +111,34 @@
 						</article>
 					</section>
 				</div>
+				<div class="inner" lang="bg">
+					<h2 class="major">Умения</h2>
+					<section class="features">
+						<article>
+							<img class="image" src="images\iMac-icon.png" alt="" />
+							<h3 class="major">Десктоп</h3>
+							<p>Разработване на C#/Python Десктоп приложения</p>
+						</article>
+						<article>
+							<img class="image" src="images\website-icon-18.png" alt="" />
+							<h3 class="major">Web</h3>
+							<p>Разработване, както на статични сайтове, така и на пълноразмерни Уеб Приложения с ASP.NET MVC</p>
+						</article>
+						<article>
+							<img class="image" src="images\iPhone-icon.png" alt="" />
+							<h3 class="major">Mobile</h3>
+							<p>Разработване на мобилни приложения с .NET MAUI</p>
+						</article>
+						<article>
+							<img class="image" src="images\231-2316751_database-database-icon-png.png" alt="" />
+							<h3 class="major">Database</h3>
+							<p>Разработка и поддръжка на функционални и сигърни бази данни</p>
+						</article>
+					</section>
+				</div>
 			</section>
 
-			<section id="four" class="blockquote-section">
+			<section id="blockquote-section" class="blockquote-section">
 				<div class="blockquote-wrapper">
 					<div class="blockquote">
 					  <h1 id="quote"></h1>
@@ -117,7 +151,7 @@
 
 		<!-- Footer -->
 		<section id="footer">
-			<div class="inner">
+			<div class="inner" lang="en">
 				<h2 class="major">Get in touch</h2>
 				<ul class="contact">
 					<li class="icon solid fa-home">
@@ -134,6 +168,23 @@
 					<li>Copyright &copy; Ivailo Iliev 2021</li>
 				</ul>
 			</div>
+			<div class="inner" lang="bg">
+				<h2 class="major">Свържете се с мен</h2>
+				<ul class="contact">
+					<li class="icon solid fa-home">
+						ул. "Шарампол" №48А<br />
+						Чирпан, България 6200<br />
+					</li>
+					<li class="icon solid fa-phone">+359 88 657 5995</li>
+					<li class="icon solid fa-envelope"><a href="mailto:iliev_evn@hotmail.com">iliev_evn@hotmail.com</a>
+					</li>
+					<li class="icon brands fa-twitter"><a
+							href="https://twitter.com/IvailoIliev20">twitter.com/IvailoIliev20</a></li>
+				</ul>
+				<ul class="copyright">
+					<li>Copyright &copy; Ивайло Илиев 2021</li>
+				</ul>
+			</div>
 		</section>
 
 	</div>
@@ -146,6 +197,7 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/quote.js"></script>
+	<script src="assets/js/lang-selection.js"></script>
 
 </body>
 
